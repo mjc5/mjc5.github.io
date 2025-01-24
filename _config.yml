@@ -2,7 +2,7 @@ title: Mason's Blog
 email: masoncooper85@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Made with Jekyll and GitHub Pages.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://mjc5.github.io/blog" # the subpath of your site, e.g. /blog
 url: "https://mjc5.github.io/" # the base hostname & protocol for your site
 github_username:  mjc5
 header_pages:
