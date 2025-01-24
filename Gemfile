@@ -5,5 +5,5 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem "jekyll"
-gem "just-the-docs"
-gem "jekyll-default-layout"
+gem "jekyll-theme-leap-day"
+gem "github-pages", group: :jekyll_plugins
