@@ -11,3 +11,5 @@ header_pages:
 theme: just-the-docs
 sidebar:
   - getting-started
+plugins:
+  - jekyll-default-layout
