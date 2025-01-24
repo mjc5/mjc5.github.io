@@ -1,8 +1,4 @@
 ---
 layout: home
-title: Home
+title: 
 ---
-
-# Posts
-
-Welcome to my Jekyll site!

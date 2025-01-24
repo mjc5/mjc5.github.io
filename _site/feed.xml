@@ -1,9 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-22T23:35:57-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Technical Writing Portfolio</title><subtitle>The Technical Writing Portfolio of Mason Cooper.</subtitle><entry><title type="html">Welcome to Jekyll3!</title><link href="http://localhost:4000/2011/12/31/test2.html" rel="alternate" type="text/html" title="Welcome to Jekyll3!" /><published>2011-12-31T00:00:00-05:00</published><updated>2011-12-31T00:00:00-05:00</updated><id>http://localhost:4000/2011/12/31/test2</id><content type="html" xml:base="http://localhost:4000/2011/12/31/test2.html"><![CDATA[<h1 id="welcome">Welcome</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-23T18:34:34-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mason Cooper’s Blog</title><subtitle>Made with Jekyll and GitHub Pages.</subtitle><entry><title type="html">TheCatAPI API Documentation</title><link href="http://localhost:4000/2023/12/31/API-Documentation.html" rel="alternate" type="text/html" title="TheCatAPI API Documentation" /><published>2023-12-31T00:00:00-05:00</published><updated>2023-12-31T00:00:00-05:00</updated><id>http://localhost:4000/2023/12/31/API-Documentation</id><content type="html" xml:base="http://localhost:4000/2023/12/31/API-Documentation.html"><![CDATA[<h1 id="thecatapi-api-documentation">TheCatAPI API Documentation</h1>
+<hr />
+<h2 id="base-url">Base URL</h2>
+<p><code class="language-plaintext highlighter-rouge">https://api.thecatapi.com/</code></p>
 
-<p><strong>Hello world</strong>, this is my first Jekyll blog post.</p>
+<hr />
 
-<p>I hope you like it!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Welcome]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/2011/12/31/test.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2011-12-31T00:00:00-05:00</published><updated>2011-12-31T00:00:00-05:00</updated><id>http://localhost:4000/2011/12/31/test</id><content type="html" xml:base="http://localhost:4000/2011/12/31/test.html"><![CDATA[<h1 id="welcome">Welcome</h1>
+<h1 id="quick-start-guide">Quick Start Guide</h1>
 
-<p><strong>Hello world</strong>, this is my first Jekyll blog post.</p>
-
-<p>I hope you like it!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Welcome]]></summary></entry></feed>
+<ol>
+  <li><strong>Get API Access</strong>:
+    <ul>
+      <li>Enter your email to get free or premium access.</li>
+      <li>Check your inbox (and spam folder) for the welcome email with your API key.</li>
+      <li>Store your API key securely.</li>
+    </ul>
+  </li>
+  <li><strong>Test Requests</strong>:
+    <ul>
+      <li>Use Postman to test the API.</li>
+      <li>Fork the Postman Collection and update with your API key.</li>
+    </ul>
+  </li>
+  <li><strong>Authentication</strong>:
+    <ul>
+      <li><strong>Header</strong>: Use <code class="language-plaintext highlighter-rouge">'x-api-key': 'YOUR_API_KEY'</code>.</li>
+      <li><strong>Query Parameter</strong>: Use <code class="language-plaintext highlighter-rouge">?api_key=YOUR_API_KEY</code> (not recommended).</li>
+    </ul>
+  </li>
+  <li><strong>Limits without Authentication</strong>:
+    <ul>
+      <li>Limited access to images, lower request limits, and no access to premium endpoints like <code class="language-plaintext highlighter-rouge">/jokes</code>.</li>
+    </ul>
+  </li>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Documentation for the TheCatAPI API]]></summary></entry></feed>
