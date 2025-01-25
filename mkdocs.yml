@@ -1,0 +1,4 @@
+site_name: Mason's Docs
+site_url: https://mjc5.github.io/
+theme:
+  name: material
